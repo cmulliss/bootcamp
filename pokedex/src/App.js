@@ -13,6 +13,7 @@ function App () {
 export default App
 
 // const POKE_API = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
+// detail, better:
 // const POKE_API = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/'
 
 // for each pokemon, their image src would be:
