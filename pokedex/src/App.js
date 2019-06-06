@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import Pokedex from './Pokedex'
-
+// import Pokedex from './Pokedex'
+import Pokegame from './Pokegame'
 function App () {
   return (
     <div className='App'>
-      <Pokedex />
+      <Pokegame />
     </div>
   )
 }
@@ -21,3 +21,8 @@ export default App
 // https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
 
 // {id: 4, name: 'Charmander', type: 'fire', base_experience: 62}
+
+// return (
+//     <div className='App'>
+//       <Pokedex />
+//     </div>
