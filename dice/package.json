@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "eslint-config-prettier": "^4.3.0",
+    "eslint-config-react-app": "^4.0.1",
     "prettier-eslint": "^8.8.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
