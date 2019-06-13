@@ -4,12 +4,14 @@ import './App.css'
 // import Game from './Game'
 // import Button from './Button'
 // import BrokenClick from './BrokenClick'
-import Clicker from './Clicker'
+import Clicker from './components/Clicker'
+import ScoreKeeper from './components/ScoreKeeper'
 
 function App () {
   return (
     <div className='App'>
       <Clicker />
+      <ScoreKeeper />
     </div>
   )
 }
