@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import Ball from './Ball'
+import './Lottery.css'
 
 class Lottery extends Component {
   static defaultProps = {
     title: 'Lotto',
-    maxBalls: 6,
+    numBalls: 6,
     maxNum: 99
   }
   state = {
-    nums: Array.from({ length: this.props.maxBalls })
+    nums: Array.from({ length: this.props.numBalls })
   }
   // handleClick will call generate
   handleClick = () => {
